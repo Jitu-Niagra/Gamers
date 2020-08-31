@@ -1,0 +1,105 @@
+body{
+    --gameblack:#2d2a32;
+    --gamegold:#ddd92a;
+    --gamelightgold:#eae151;
+    --gamebrown:#eeefa8;
+    --gamewhite:#fafdf6;
+
+    background: var(--gameblack);
+    scroll-behavior: smooth;
+
+}
+header{
+    margin:0rem 1rem;
+
+}
+section{
+    margin-top: 4rem;
+}
+/* Navbar */
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    
+margin: 2rem 2rem;
+font-size: 1.5rem;
+color: var(--gamegold);
+font-weight: 700;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-collapse .navbar-nav .nav-item .active{
+    text-transform: none;
+    color:var(--gamewhite);
+    transition: ease-in 3ms;
+}
+
+/* qute div */
+.quote-div{
+    margin:4rem 0rem;
+    color: var(--gamewhite);
+    text-align: left;
+}
+.quote-div h1{
+    color: var(--gamebrown);
+}
+.btn-head .learn{
+    margin-right: 2rem;
+    margin-top: 2rem;
+    color: var(--gamewhite);
+
+}
+.btn-head .contact{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--gamewhite);
+}
+/* .btn-head .contact:hover ,.btn-head .learn:hover{
+    transition: ease-in 5ms;
+    background:var(--gamegold) !important;
+} */
+
+.game-div img{
+    height: inherit;
+    width: inherit;
+}
+/* title */
+.title-div{
+    color: var(--gamebrown);
+    text-align: center;
+    margin-bottom:2rem ;
+    
+    
+}
+.title{
+    color: var(--gamegold);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.title-div .title-underline{
+    width: 10rem;
+    background: var(--gamelightgold);
+    height: 0.5rem;
+    margin:auto;
+}
+/* carousel */
+
+/* Home */
+.descr,.game-div{
+    color: var(--gamewhite);
+    margin-top: 2rem;
+}
+
+/* cards */
+
+.card{
+    margin-top:2rem;
+}
+
+
+
+
+
+
