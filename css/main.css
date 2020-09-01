@@ -8,6 +8,7 @@ body{
     background: var(--gameblack);
     scroll-behavior: smooth;
     font-size:12px;
+    text-align: justify;
 
 }
 header{
