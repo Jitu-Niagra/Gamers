@@ -7,15 +7,17 @@ body{
 
     background: var(--gameblack);
     scroll-behavior: smooth;
-    font-size:12px;
+    font-size:12px !important;
     text-align: justify;
+    
 
 }
 header{
     margin:0rem 1rem;
+   
 
 }
-section{
+section,footer{
     margin-top: 4rem;
 }
 /* Navbar */
@@ -99,7 +101,55 @@ font-weight: 700;
 .card{
     margin-top:2rem;
 }
+.card-img-top:hover{
+    box-shadow:2px 2px 2px var(--gamegold);
+   
+}
 
+/* footer */
+footer{
+   
+}
+.email-div{
+    justify-items: center;
+    border:2px solid green;
+    margin-bottom:2rem;
+}
+.pas-div{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--gamewhite);
+    font-size: 12px !important;
+}
+
+.about-div div,.support-div div{
+    display: flex !important;
+    flex-direction: column;
+}
+.about-div h6 ,.partner-div h6, .support-div h6{
+    color: var(--gamegold);
+    
+}
+
+.foot-underline{
+    background: var(--gamegold);
+    height:0.2rem;
+
+}
+.btn,.cop-div p{
+    color: var(--gamewhite);
+}
+.about-div .btn:hover ,.partner-div .btn:hover, .support-div .btn:hover{
+    text-transform:none;
+    color:var(--gamebrown);
+    transition: 5ms ease;
+}
+.icon-div{
+    margin-left:auto;
+    
+    justify-content: end !important;
+    
+}
 
 
 
